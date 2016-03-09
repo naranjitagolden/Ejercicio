@@ -9,15 +9,14 @@ img {
 
 }
 
-.circles {
-    width: 8%;
-    height: 100px;
-    position: relative;
+.menu_opener {
+    display: none;
 }
 
-.circles div {
-    height: 0;
-    position: absolute;
+.menu_opener:checked ~ {
+   .link_one {
+    top: 65px;
+   }
 }
 
 .middle-circle {
